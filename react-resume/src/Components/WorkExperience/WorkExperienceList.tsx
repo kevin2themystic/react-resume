@@ -1,14 +1,27 @@
+// Main Imports
 import React from 'react';
-import './EducationList.css';
+// Material UI
+//import Avatar from "@material-ui/core/Avatar";
+// Custom Imports
+import WorkExperience from "./WorkExperience";
+// Custom CSS
+import './WorkExperienceList.css';
+// Data
+import workExperienceData from "../../data/workexperience.json";
 
 class WorkExperienceList extends React.Component {
   render () {
     return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+      <div className="work-experience-list-component">
+        {workExperienceData.map((we, idx) => 
+          <WorkExperience organization={we.organization}
+                          title={we.title}
+                          startDate={we.startDate}
+                          endDate={we.endDate}
+                          location={we.location}
+                          experiences={we.experiences} />
+        )}
+      </div>
   );
   } 
 }

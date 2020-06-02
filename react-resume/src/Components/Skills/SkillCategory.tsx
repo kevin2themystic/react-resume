@@ -1,14 +1,11 @@
 import React from 'react';
-import './EducationList.css';
+import './SkillCategory.css';
 
 class SkillList extends React.Component {
   render () {
     return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+      <div className="skill-category-component">
+      </div>
   );
   } 
 }

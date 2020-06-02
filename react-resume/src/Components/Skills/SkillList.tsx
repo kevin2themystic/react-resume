@@ -1,14 +1,17 @@
+// Main Imports
 import React from 'react';
-import './EducationList.css';
+// Material UI
+//import Avatar from "@material-ui/core/Avatar";
+// Custom CSS
+import './SkillList.css';
+// Data
+import skillData from "../../data/education.json";
 
 class SkillList extends React.Component {
   render () {
     return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+      <div className="skill-list-component">
+      </div>
   );
   } 
 }

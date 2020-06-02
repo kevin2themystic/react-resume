@@ -1,14 +1,20 @@
+// Main Imports
 import React from 'react';
-import './EducationList.css';
+// Material UI
+//import Avatar from "@material-ui/core/Avatar";
+// Custom CSS
+import './Skill.css';
 
-class Skill extends React.Component {
+export interface SkillProps {
+  skill: String
+}
+
+class Skill extends React.Component<SkillProps, {}> {
   render () {
     return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+      <div className="skill-component">
+        {this.props.skill}
+      </div>
   );
   } 
 }

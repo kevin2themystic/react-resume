@@ -1,14 +1,38 @@
+// Main Imports
 import React from 'react';
-import './EducationList.css';
+// Material UI
+//import Avatar from "@material-ui/core/Avatar";
+// Custom Imports
+// Custom CSS
+import './WorkExperience.css';
 
-class WorkExperience extends React.Component {
+export interface WorkExperienceProps {
+  organization: String;
+  title: String;
+  startDate: String;
+  endDate: String;
+  location: String;
+  experiences: String[]
+}
+
+class WorkExperience extends React.Component<WorkExperienceProps, {}> {
   render () {
     return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
+      <div className="work-experience-component">
+      <div>{this.props.organization}</div>
+      <div>{this.props.title}</div>
+      <div>{this.props.startDate}</div>
+      <div>{this.props.endDate}</div>
+      <div>{this.props.location}</div>
+      <div>
+        <h6>Experiences</h6>
+        <ul>
+          {this.props.experiences.map((weexperience, index) => 
+            <li>{weexperience}</li>
+          )}
+        </ul>
+      </div>
+      </div>
   );
   } 
 }
