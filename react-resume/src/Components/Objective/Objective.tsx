@@ -10,8 +10,8 @@ import objectiveData from "../../data/objective.json";
 class Objective extends React.Component {
   render () {
     return (
-      <div className="objective-component">
-        <Typography variant="h5">Objective</Typography>
+      <div className="component">
+        <div className="sectionHeader">Objective</div>
         <Typography variant="body1">
           {objectiveData.objective}
         </Typography>        

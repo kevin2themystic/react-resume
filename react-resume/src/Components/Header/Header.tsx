@@ -12,19 +12,33 @@ class Header extends React.Component {
 
   render () {
     return (
-      <div className="header-component">
+      <div className="component">
         <Grid>
           <Grid item>
             <Avatar alt={headerData.name} src={headerData.avatar} style={{width: 150, height: 150}} />          
           </Grid>  
           <Grid item>
-            <div className="resumeName">{headerData.name}</div>
+            <div className="resumeName">
+              {headerData.name}
+            </div>
           </Grid>
           <Grid item>
-            <div className="resumeTitle">{headerData.title}</div>
+            <div>
+              <i className="fa fa-briefcase blueIcon"></i>
+              <span className="resumeTitle pl-2">{headerData.title}</span>
+            </div>
           </Grid>
           <Grid item>
-            <div className="resumePhone">{headerData.phone}</div>
+            <div>
+              <i className="fa fa-phone blueIcon"></i>
+              <span className="resumePhone pl-2">{headerData.phone}</span>
+            </div>
+          </Grid>
+          <Grid item>
+            <div>
+              <i className="fa fa-envelope blueIcon"></i>
+              <span className="resumeEmail pl-2">{headerData.email}</span>
+            </div>
           </Grid>
         </Grid>       
         

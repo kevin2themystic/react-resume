@@ -10,8 +10,9 @@ import aboutMeData from "../../data/aboutme.json";
 class AboutMe extends React.Component {
   render () {
     return (
-    <div className="aboutme-component">
-    <div>{aboutMeData.aboutme}</div>
+    <div className="component">
+      <div className="sectionHeader">About Me</div>
+      <div>{aboutMeData.aboutme}</div>
       <div>Total Years Experience: {aboutMeData.totalYearsExperience}</div>
       <div>Top Skills: {aboutMeData.topSkills}</div>
     </div>

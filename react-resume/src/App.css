@@ -1,8 +1,15 @@
-.App {
-  text-align: center;
-  width: 80%;
-  align-content: center;
+.blueIcon {
+  color: #1C266B;
 }
 
+.component {
+  padding: 10px;
+}
+
+.sectionHeader {
+  color: #1C266B;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 

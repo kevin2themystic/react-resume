@@ -1,5 +1,21 @@
 [
     {
-        
+       "category": "Programming Languages",
+       "skills": [
+           "C#",
+           "VB.NET",
+           "VB 6",
+           "Java",
+           "A little C++",
+           "A litte bit of C"
+       ] 
+    },
+    {
+       "category": "Description  Languages",
+       "skills": [
+           "HTML",
+           "XML",
+           "JSON"
+       ] 
     }
 ]

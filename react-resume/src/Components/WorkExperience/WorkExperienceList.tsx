@@ -12,9 +12,10 @@ import workExperienceData from "../../data/workexperience.json";
 class WorkExperienceList extends React.Component {
   render () {
     return (
-      <div className="work-experience-list-component">
+      <div className="component">
+        <div className="sectionHeader">Professional Experience</div>
         {workExperienceData.map((we, idx) => 
-          <WorkExperience organization={we.organization}
+          <WorkExperience key={idx} organization={we.organization}
                           title={we.title}
                           startDate={we.startDate}
                           endDate={we.endDate}

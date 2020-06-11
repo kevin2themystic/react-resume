@@ -16,7 +16,11 @@ export interface EducationProps {
 class Education extends React.Component<EducationProps, {}> {
   render () {
     return (
-    <div className="education-component">
+    <div className="education">
+      <div className="edOrganization">{this.props.institution}</div>
+      <div className="edProgramName">{this.props.programName}</div>
+      <div className="edDates">{this.props.startDate} to {this.props.endDate}</div>
+      <div className="edLocation">{this.props.location}</div>
     </div>
   );
   } 

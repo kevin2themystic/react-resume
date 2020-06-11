@@ -5,6 +5,7 @@
         "startDate": "March 2020",
         "endDate": "May 2020",
         "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "Helped maintain a list of 7 web and Windows based applications",
             "Participated with an agile team of 8 people (4 developers, 2 business analysts, 1 system tester and 1 team lead) in daily scrums and bi-weekly spring planning sessions to coordinate and plan development 3changes for business users",
@@ -13,11 +14,26 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Stream Property Solutions Ltd.",
+        "title": "Full Stack Microsoft.NET Web Developer",
+        "startDate": "Apr 2019",
+        "endDate": "Jan 2020",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
+        "experiences": [
+            "Developed and delivered features and functionality for this Canada wide startup real estate platform on a very small team of 2 developers, 1 designer, 1 data analyst and 2 realtors.",
+            "Tools and Technology used: Amazon Web Services (AWS), AWS Elastic BeanStalk,  AWS S3 Bucket, SQL Server and SMSS, .NET Core 2.2, WebAPI, ASP.NET MVC, jQuery, JavaScript, UIKit",
+            "Utilized Trello for project management and task management",
+            "Interfaced with the designer to implement screen mockups made in Zeplin"
+        ]
+    },
+    {
+        "organization": "Rosenau transport Ltd.",
+        "title": "Senior Web Software Developer",
+        "startDate": "May 2017",
+        "endDate": "Apr. 2019",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -25,11 +41,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Saputo Inc.",
+        "title": "C# Web Developer",
+        "startDate": "Oct. 2015",
+        "endDate": "Apr. 2017",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -37,11 +54,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "City of Edmonton Current Planning Future State (CPFS)/eServices",
+        "title": "C#/ASP.NET/Adobe LiveCycle  Developer",
+        "startDate": "Oct. 2012",
+        "endDate": "Apr. 2015",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -49,11 +67,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "CGI / Alberta Ministry of Justice",
+        "title": "Consultant / C# Developer ",
+        "startDate": "Jan. 2012",
+        "endDate": "Aug. 2012",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -61,11 +80,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "City of Edmonton TACS Project",
+        "title": "Consultant / C# Developer Analyst",
+        "startDate": "Nov. 2010",
+        "endDate": "Dec. 2011",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -73,11 +93,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "EMIS Inc.",
+        "title": "Intermediate C# Developer",
+        "startDate": "Feb. 2008",
+        "endDate": "Aug. 2010",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -85,11 +106,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "YouInFocusProducts and YouInFocusCoaching",
+        "title": "Independent Web Developer ",
+        "startDate": "2009",
+        "endDate": "2010",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -97,11 +119,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Refresh Bistro",
+        "title": "Independent Web Developer",
+        "startDate": "Sept. 2009",
+        "endDate": "Oct. 2009",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -109,11 +132,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Quercus Solutions / Alberta School Employee Benefit Plan (ASEBP)",
+        "title": "Consultant / C#.NET Developer",
+        "startDate": "Jan. 2007",
+        "endDate": "Feb. 2008",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -121,11 +145,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Sport and Event Registrar",
+        "title": "Programmer/Analyst",
+        "startDate": "Apr. 2006",
+        "endDate": "Sept. 2006",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
         "experiences": [
             "",
             "",
@@ -133,11 +158,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "CodeBaby",
+        "title": "Deployment Specialist/Software Developer",
+        "startDate": "May 2006",
+        "endDate": "Dec. 2006",
+        "location": "Edmonton, AB Canada",
+        "type": "internship",
         "experiences": [
             "",
             "",
@@ -145,11 +171,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "Alberta Health and Wellness Information Resource Management",
+        "title": "Metadata Analyst",
+        "startDate": "Sept. 2005",
+        "endDate": "Dec. 2005",
+        "location": "Edmonton, AB Canada",
+        "type": "internship",
         "experiences": [
             "",
             "",
@@ -157,23 +184,12 @@
         ]
     },
     {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
-        "experiences": [
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "organization": "",
-        "title": "",
-        "startDate": "",
-        "endDate": "",
-        "location": "",
+        "organization": "DSME Online Testing System - NAIT CST Final Project",
+        "title": "Team Leader and Developer",
+        "startDate": "Sept. 2006",
+        "endDate": "Dec. 2006",
+        "location": "Edmonton, AB Canada",
+        "type": "school",
         "experiences": [
             "",
             "",

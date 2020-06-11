@@ -7,31 +7,27 @@ import React from 'react';
 import './WorkExperience.css';
 
 export interface WorkExperienceProps {
-  organization: String;
-  title: String;
-  startDate: String;
-  endDate: String;
-  location: String;
-  experiences: String[]
+  organization: string;
+  title: string;
+  startDate: string;
+  endDate: string;
+  location: string;
+  experiences: string[]
 }
 
 class WorkExperience extends React.Component<WorkExperienceProps, {}> {
   render () {
     return (
-      <div className="work-experience-component">
-      <div>{this.props.organization}</div>
-      <div>{this.props.title}</div>
-      <div>{this.props.startDate}</div>
-      <div>{this.props.endDate}</div>
-      <div>{this.props.location}</div>
-      <div>
-        <h6>Experiences</h6>
+      <div className="work-experience">
+        <div className="weOrganization">{this.props.organization}</div>
+        <div className="weTitle">{this.props.title}</div>
+        <div className="weDates">{this.props.startDate} to {this.props.endDate}</div>
+        <div className="weLocation">{this.props.location}</div>
         <ul>
-          {this.props.experiences.map((weexperience, index) => 
-            <li>{weexperience}</li>
+          {this.props.experiences.map((weexperience, idx) => 
+            <li key={idx}>{weexperience}</li>
           )}
         </ul>
-      </div>
       </div>
   );
   } 

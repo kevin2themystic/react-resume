@@ -6,22 +6,18 @@ import React from 'react';
 import './Training.css';
 
 export interface TrainingProps {
-  name: String;
-  description: String;
-  startDate: String;
-  endDate: String;
-  webLink: String;
+  name: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  webLink: string;
 }
 
 class Training extends React.Component<TrainingProps, {}> {
   render () {
     return (
-      <div className="training-component">
-        <div>{this.props.name}</div>
-        <div>{this.props.description}</div>
-        <div>{this.props.startDate}</div>
-        <div>{this.props.endDate}</div>
-        <div>{this.props.webLink}</div>
+      <div className="component">
+        <div><a href={this.props.webLink} target="_blank" rel="noopener noreferrer">{this.props.name} - {this.props.description}</a> - {this.props.startDate} </div>
       </div>
   );
   } 

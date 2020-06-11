@@ -3,13 +3,18 @@
 }
 
 .resumeName {
-  
+  font-size: xx-large;
+  color: #1C266B;
+  font-weight: bold;
 }
 
 .resumeTitle {
-  
+  color: #b9b6b6;
 }
 
 .resumePhone {
-  
+  color: #b9b6b6;
+}
+.resumeEmail {
+  color: #b9b6b6;
 }
