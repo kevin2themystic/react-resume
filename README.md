@@ -1,2 +1,2 @@
 # react-resume
-My Resume built with Reacct and Typescript
+My Resume built with React and Typescript
