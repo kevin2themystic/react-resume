@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Container fixed>
-        <Header />
+        <Header />      
         <AboutMe />
         <Objective />
         <SkillList />

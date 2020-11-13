@@ -3,12 +3,31 @@ import React from "react";
 // Material UI
 import Avatar from "@material-ui/core/Avatar";
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 // Custom CSS
 import "./Header.css";
 // Data
 import headerData from "../../data/header.json";
 
-class Header extends React.Component {
+interface HeaderProps {
+}
+
+interface HeaderState {
+  anchorEl: any
+  isMenuOpen: boolean
+}
+
+class Header extends React.Component<HeaderProps, HeaderState> {
+
+  constructor (props: HeaderProps) {
+    super(props);
+    this.state = {
+      anchorEl: null,
+      isMenuOpen: false
+    };
+  }
 
   render () {
     return (
@@ -45,7 +64,10 @@ class Header extends React.Component {
           <Grid item>
             <div>
               <i className="fa fa-file-pdf-o blueIcon"></i>
-              <a className="resumePDF pl-2" href={headerData.pdfResume} target="_blank" rel="noopener noreferrer" download>View My Resume in PDF</a>
+              <a className="resumePDF pl-2" 
+                href={headerData.pdfResume} 
+                target="_blank" rel="noopener noreferrer" 
+                download={headerData.pdfResumeName}>View My Resume in PDF</a>
             </div>
           </Grid>
           <Grid item>
@@ -54,11 +76,42 @@ class Header extends React.Component {
               <a className="resumePDF pl-2" href={headerData.portfolio} target="_blank" rel="noopener noreferrer">View My Portfolio</a>
             </div>
           </Grid>
-        </Grid>       
+        </Grid>   
+        <div>
+          <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick}>
+            Menu
+          </Button>
+          <Menu
+            id="simple-menu"
+            anchorEl={this.state.anchorEl}
+            keepMounted
+            open={this.state.isMenuOpen}
+            onClose={this.handleClose}
+          >
+            <MenuItem onClick={this.handleClose}>About Me</MenuItem>
+            <MenuItem onClick={this.handleClose}>Objective</MenuItem>
+            <MenuItem onClick={this.handleClose}>Skills</MenuItem>
+            <MenuItem onClick={this.handleClose}>Work Experience</MenuItem>
+            <MenuItem onClick={this.handleClose}>Education</MenuItem>
+            <MenuItem onClick={this.handleClose}>Personal Training and Development</MenuItem>
+          </Menu>
+        </div>      
         
       </div>
-  );
+    );
   } 
+  handleClose = (event: any) => {
+    this.setState({
+      anchorEl: event.currentTarget,
+      isMenuOpen: false
+    });
+  };
+  handleClick = (event: any) => {
+    this.setState({
+      anchorEl: event.currentTarget,
+      isMenuOpen: true
+    });
+  };
 }
 
 export default Header;
