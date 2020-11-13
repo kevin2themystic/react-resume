@@ -3,9 +3,6 @@ import React from "react";
 // Material UI
 import Avatar from "@material-ui/core/Avatar";
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
 // Custom CSS
 import "./Header.css";
 // Data
@@ -76,42 +73,10 @@ class Header extends React.Component<HeaderProps, HeaderState> {
               <a className="resumePDF pl-2" href={headerData.portfolio} target="_blank" rel="noopener noreferrer">View My Portfolio</a>
             </div>
           </Grid>
-        </Grid>   
-        <div>
-          <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick}>
-            Menu
-          </Button>
-          <Menu
-            id="simple-menu"
-            anchorEl={this.state.anchorEl}
-            keepMounted
-            open={this.state.isMenuOpen}
-            onClose={this.handleClose}
-          >
-            <MenuItem onClick={this.handleClose}>About Me</MenuItem>
-            <MenuItem onClick={this.handleClose}>Objective</MenuItem>
-            <MenuItem onClick={this.handleClose}>Skills</MenuItem>
-            <MenuItem onClick={this.handleClose}>Work Experience</MenuItem>
-            <MenuItem onClick={this.handleClose}>Education</MenuItem>
-            <MenuItem onClick={this.handleClose}>Personal Training and Development</MenuItem>
-          </Menu>
-        </div>      
-        
+        </Grid>     
       </div>
     );
-  } 
-  handleClose = (event: any) => {
-    this.setState({
-      anchorEl: event.currentTarget,
-      isMenuOpen: false
-    });
-  };
-  handleClick = (event: any) => {
-    this.setState({
-      anchorEl: event.currentTarget,
-      isMenuOpen: true
-    });
-  };
+    }
 }
 
 export default Header;

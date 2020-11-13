@@ -12,9 +12,17 @@ import trainingData from "../../data/training.json";
 class TrainingList extends React.Component {
   render () {
     return (
-      <div className="component">
-        <div className="sectionHeader">Personal Training and Development</div>
-        {trainingData.map((td, idx) => 
+      <div className="section">
+        <div className="sectionHeader">PLURALSIGHT</div>
+        {trainingData.filter(tr => tr.description.toLowerCase() === "pluralsight").map((td, idx) => 
+          <Training key={idx} name={td.name}
+                    description={td.description}
+                    startDate={td.startDate}
+                    endDate={td.endDate}
+                    webLink={td.webLink} />
+        )}
+        <div className="sectionHeader">TEACHABLE</div>
+        {trainingData.filter(tr => tr.description.toLowerCase() === "teachable").map((td, idx) => 
           <Training key={idx} name={td.name}
                     description={td.description}
                     startDate={td.startDate}

@@ -16,8 +16,8 @@ export interface TrainingProps {
 class Training extends React.Component<TrainingProps, {}> {
   render () {
     return (
-      <div className="component">
-        <div><a href={this.props.webLink} target="_blank" rel="noopener noreferrer">{this.props.name} - {this.props.description}</a> - {this.props.startDate} </div>
+      <div>
+        <div><a href={this.props.webLink} target="_blank" rel="noopener noreferrer">{this.props.name}</a> - {this.props.startDate} </div>
       </div>
   );
   } 

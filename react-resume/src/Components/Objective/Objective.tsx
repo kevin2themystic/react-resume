@@ -10,8 +10,8 @@ import objectiveData from "../../data/objective.json";
 class Objective extends React.Component {
   render () {
     return (
-      <div className="component">
-        <div className="sectionHeader">Objective</div>
+      <div className="section">
+        <div className="sectionHeader">OBJECTIVE</div>
         <p>{objectiveData.objective1}</p>  
         <p>{objectiveData.objective2}</p>  
         <p>{objectiveData.objective3}</p>  

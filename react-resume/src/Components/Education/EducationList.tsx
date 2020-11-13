@@ -12,8 +12,8 @@ import eductionData from "../../data/education.json";
 class EducationList extends React.Component {
   render () {
     return (
-    <div className="component">
-      <div className="sectionHeader">Education</div>
+    <div className="section">
+      <div className="sectionHeader">EDUCATION</div>
       {eductionData.map((ed, idx) => 
         <Education key={idx} institution={ed.institution}
                    programName={ed.programName}

@@ -1,5 +1,6 @@
 // Default Imports
 import React from "react";
+import { Switch, NavLink, Route, BrowserRouter as Router } from "react-router-dom";
 // Material UI Imports
 import Container from "@material-ui/core/Container";
 // Custom Imports
@@ -22,13 +23,35 @@ function App() {
   return (
     <div className="App">
       <Container fixed>
-        <Header />      
-        <AboutMe />
+        <Header />  
+        <Router>
+          <div className="component">
+            <div className="links">
+                <NavLink to="/aboutme" className="link">About Me</NavLink>
+                <NavLink to="/objective" className="link">Objective</NavLink>
+                <NavLink to="/skills" className="link">Skills</NavLink>
+                <NavLink to="/workexperience" className="link">Work Experience</NavLink>
+                <NavLink to="/education" className="link">Education</NavLink>
+                <NavLink to="/training" className="link">Training</NavLink>
+            </div>
+            <Switch>
+                <Route exact path="/" component={ WorkExperienceList }/>
+                <Route exact path="/aboutme" component={ AboutMe }/>
+                <Route exact path="/objective" component={ Objective }/> 
+                <Route exact path="/skills" component={ SkillList }/>
+                <Route exact path="/workexperience" component={ WorkExperienceList }/>  
+                <Route exact path="/education" component={ EducationList }/>
+                <Route exact path="/training" component={ TrainingList }/>            
+                <Route exact render={ () => <h2>No content found.</h2> }/>
+            </Switch>            
+          </div>
+        </Router>
+        {/* <AboutMe />
         <Objective />
         <SkillList />
         <WorkExperienceList />
         <EducationList />
-        <TrainingList />
+        <TrainingList /> */}
         <Footer />
       </Container>
     </div>
