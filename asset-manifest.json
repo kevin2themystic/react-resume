@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-resume/static/css/main.46ea9826.chunk.css",
+    "main.js": "/react-resume/static/js/main.d18a58c8.chunk.js",
+    "main.js.map": "/react-resume/static/js/main.d18a58c8.chunk.js.map",
+    "runtime-main.js": "/react-resume/static/js/runtime-main.e54f5e95.js",
+    "runtime-main.js.map": "/react-resume/static/js/runtime-main.e54f5e95.js.map",
+    "static/css/2.de7bb3de.chunk.css": "/react-resume/static/css/2.de7bb3de.chunk.css",
+    "static/js/2.410aee68.chunk.js": "/react-resume/static/js/2.410aee68.chunk.js",
+    "static/js/2.410aee68.chunk.js.map": "/react-resume/static/js/2.410aee68.chunk.js.map",
+    "index.html": "/react-resume/index.html",
+    "precache-manifest.d2c4dc951b8bd8017103628888f7a48d.js": "/react-resume/precache-manifest.d2c4dc951b8bd8017103628888f7a48d.js",
+    "service-worker.js": "/react-resume/service-worker.js",
+    "static/css/2.de7bb3de.chunk.css.map": "/react-resume/static/css/2.de7bb3de.chunk.css.map",
+    "static/css/main.46ea9826.chunk.css.map": "/react-resume/static/css/main.46ea9826.chunk.css.map",
+    "static/js/2.410aee68.chunk.js.LICENSE.txt": "/react-resume/static/js/2.410aee68.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/react-resume/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e54f5e95.js",
+    "static/css/2.de7bb3de.chunk.css",
+    "static/js/2.410aee68.chunk.js",
+    "static/css/main.46ea9826.chunk.css",
+    "static/js/main.d18a58c8.chunk.js"
+  ]
+}
