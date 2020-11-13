@@ -45,7 +45,7 @@ class Header extends React.Component {
           <Grid item>
             <div>
               <i className="fa fa-file-pdf-o blueIcon"></i>
-              <a className="resumePDF pl-2" href={headerData.pdfResume}>View My Resume in PDF</a>
+              <a className="resumePDF pl-2" href={headerData.pdfResume} target="_blank" rel="noopener noreferrer" download>View My Resume in PDF</a>
             </div>
           </Grid>
           <Grid item>
