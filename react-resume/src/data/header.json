@@ -3,5 +3,8 @@
     "title": "Full Stack Developer",
     "phone": "(780) 405-6118",
     "email": "kevin@peakselfliving.com",
-    "avatar": "img/KP.jpg"
+    "avatar": "/img/KP.jpg",
+    "pdfResume": "/download/Kevin Parkinson Resume.pdf",
+    "pdfResumeName": "Kevin Parkinson Resume",
+    "portfolio": "https://kevin2themystic.github.io/kevin-parkinson-portfolio/"
 }

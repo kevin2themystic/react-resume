@@ -6,7 +6,7 @@ import React from 'react';
 import './Skill.css';
 
 export interface SkillProps {
-  skill: String
+  skill: string
 }
 
 class Skill extends React.Component<SkillProps, {}> {

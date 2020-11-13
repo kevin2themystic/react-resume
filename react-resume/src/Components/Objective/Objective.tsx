@@ -1,7 +1,7 @@
 // Main Imports
 import React from "react";
 // Material UI
-import Typography from '@material-ui/core/Typography';
+
 // Custom CSS
 import "./Objective.css";
 // Data
@@ -12,11 +12,12 @@ class Objective extends React.Component {
     return (
       <div className="component">
         <div className="sectionHeader">Objective</div>
-        <Typography variant="body1">
-          {objectiveData.objective}
-        </Typography>        
+        <p>{objectiveData.objective1}</p>  
+        <p>{objectiveData.objective2}</p>  
+        <p>{objectiveData.objective3}</p>  
+        <p>{objectiveData.objective4}</p>        
       </div>
-  );
+    );
   } 
 }
 

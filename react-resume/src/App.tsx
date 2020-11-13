@@ -14,6 +14,7 @@ import Footer from "./Components/Footer/Footer";
 // 3rd Party CSS Imports
 import "font-awesome/css/font-awesome.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/js/dist/collapse.js";
 // Custom CSS Imports
 import "./App.css";
 

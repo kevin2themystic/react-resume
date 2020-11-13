@@ -15,7 +15,9 @@ class Header extends React.Component {
       <div className="component">
         <Grid>
           <Grid item>
-            <Avatar alt={headerData.name} src={headerData.avatar} style={{width: 150, height: 150}} />          
+            <Avatar alt={headerData.name} 
+                    src={headerData.avatar} 
+                    style={{width: 150, height: 150}} />          
           </Grid>  
           <Grid item>
             <div className="resumeName">
@@ -24,7 +26,7 @@ class Header extends React.Component {
           </Grid>
           <Grid item>
             <div>
-              <i className="fa fa-briefcase blueIcon"></i>
+              <i className="fa fa-smile-o blueIcon"></i>
               <span className="resumeTitle pl-2">{headerData.title}</span>
             </div>
           </Grid>
@@ -38,6 +40,18 @@ class Header extends React.Component {
             <div>
               <i className="fa fa-envelope blueIcon"></i>
               <span className="resumeEmail pl-2">{headerData.email}</span>
+            </div>
+          </Grid>
+          <Grid item>
+            <div>
+              <i className="fa fa-file-pdf-o blueIcon"></i>
+              <a className="resumePDF pl-2" href={headerData.pdfResume}>View My Resume in PDF</a>
+            </div>
+          </Grid>
+          <Grid item>
+            <div>
+              <i className="fa fa-briefcase blueIcon"></i>
+              <a className="resumePDF pl-2" href={headerData.portfolio} target="_blank" rel="noopener noreferrer">View My Portfolio</a>
             </div>
           </Grid>
         </Grid>       

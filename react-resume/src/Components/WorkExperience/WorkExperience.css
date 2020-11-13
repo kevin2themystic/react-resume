@@ -8,14 +8,11 @@
     font-weight: bold;
 }
 .weTitle {
-    color: #b9b6b6;
-    font-size: 14px;
+    color: #9b9797;
+    font-size: 16px;
+    font-weight: bold;
 }
-.weDates {
-    color: #b9b6b6;
-    font-size: 14px;
-}
-.weLocation {
+.weMoreInfo {
     color: #b9b6b6;
     font-size: 14px;
 }

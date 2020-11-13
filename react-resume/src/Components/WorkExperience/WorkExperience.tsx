@@ -21,8 +21,9 @@ class WorkExperience extends React.Component<WorkExperienceProps, {}> {
       <div className="work-experience">
         <div className="weOrganization">{this.props.organization}</div>
         <div className="weTitle">{this.props.title}</div>
-        <div className="weDates">{this.props.startDate} to {this.props.endDate}</div>
-        <div className="weLocation">{this.props.location}</div>
+        <div className="weMoreInfo">
+          {this.props.startDate} to {this.props.endDate} in {this.props.location}
+        </div>
         <ul>
           {this.props.experiences.map((weexperience, idx) => 
             <li key={idx}>{weexperience}</li>
