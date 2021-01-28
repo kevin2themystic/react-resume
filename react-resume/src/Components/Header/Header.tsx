@@ -3,8 +3,6 @@ import React from "react";
 // Material UI
 import Avatar from "@material-ui/core/Avatar";
 import Grid from '@material-ui/core/Grid';
-// Custom CSS
-import "./Header.css";
 // Data
 import headerData from "../../data/header.json";
 
@@ -28,49 +26,34 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
   render () {
     return (
-      <div className="component">
-        <Grid>
-          <Grid item>
+      <div className="component header-component">
+        <Grid container spacing={3}>
+          <Grid item xs={3}>
             <Avatar alt={headerData.name} 
                     src={headerData.avatar} 
-                    style={{width: 150, height: 150}} />          
+                    style={{width: 210, height: 210}} />          
           </Grid>  
-          <Grid item>
-            <div className="resumeName">
-              {headerData.name}
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <i className="fa fa-smile-o blueIcon"></i>
-              <span className="resumeTitle pl-2">{headerData.title}</span>
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <i className="fa fa-phone blueIcon"></i>
-              <span className="resumePhone pl-2">{headerData.phone}</span>
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <i className="fa fa-envelope blueIcon"></i>
-              <span className="resumeEmail pl-2">{headerData.email}</span>
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <i className="fa fa-file-pdf-o blueIcon"></i>
-              <a className="resumePDF pl-2" 
+          <Grid item xs={9}>
+            <div className="resume-name">{headerData.name}</div>
+            <div className="resume-title">{headerData.title}</div>
+            <div className="resume-stack">{headerData.stack}</div>
+            <div className="resume-contact-info">
+              <i className="fa fa-phone header-icon"></i>
+              <span className="resume-phone pl-2">{headerData.phone}</span>&nbsp;&nbsp; 
+
+              <i className="fa fa-envelope header-icon"></i>
+              <a className="header-link pl-2" 
+                href={`mailto:` + headerData.pdfResume}>{headerData.email}</a>&nbsp;&nbsp;&nbsp;
+
+              <i className="fa fa-file-pdf-o header-icon"></i>
+              <a className="header-link pl-2" 
                 href={headerData.pdfResume} 
                 target="_blank" rel="noopener noreferrer" 
-                download={headerData.pdfResumeName}>View My Resume in PDF</a>
-            </div>
-          </Grid>
-          <Grid item>
-            <div>
-              <i className="fa fa-briefcase blueIcon"></i>
-              <a className="resumePDF pl-2" href={headerData.portfolio} target="_blank" rel="noopener noreferrer">View My Portfolio</a>
+                download={headerData.pdfResumeName}>resume (pdf)</a>&nbsp;&nbsp;&nbsp; 
+
+              <i className="fa fa-briefcase header-icon"></i>
+              <a className="header-link pl-2" href={headerData.portfolio} target="_blank" rel="noopener noreferrer">portfolio</a>
+            </div>            <div>
             </div>
           </Grid>
         </Grid>     

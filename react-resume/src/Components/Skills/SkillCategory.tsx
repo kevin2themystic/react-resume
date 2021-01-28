@@ -1,7 +1,6 @@
 import React from 'react';
 import Skill from "./Skill";
 import SkillModel from "../../Models/SkillModel";
-import './SkillCategory.css';
 
 
 export interface SkillCategoryProps {

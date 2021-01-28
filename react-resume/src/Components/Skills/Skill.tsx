@@ -2,8 +2,6 @@
 import React from 'react';
 // Material UI
 //import Avatar from "@material-ui/core/Avatar";
-// Custom CSS
-import './Skill.css';
 
 export interface SkillProps {
   skill: string

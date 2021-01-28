@@ -15,6 +15,9 @@
             "Met with technical staff to discuss application architecture, deployment, unit tests and source code management to decide on standards.",
             "Created Visual Studio unit tests that would run in TFS upon build to notify developers if anything broke.",
             "Created builds and deployments to QA environment in order for QA tester to test features and bugs."
+        ],
+        "experiences-light": [
+
         ]
     },
     {
@@ -29,6 +32,9 @@
             "Participated with an agile team of 8 people (4 developers, 2 business analysts, 1 system tester and 1 team lead) in daily scrums and bi-weekly spring planning sessions to coordinate and plan development 3changes for business users",
             "Technologies/Languages used: ASP.NET Web Forms, Windows Forms, ASP.NET MVC, Angular, C#, Powershell, BuildMaster, SharePoint",
             "Scheduled and performed deployments to system test, UAT and production through BuildMaster and GoA’s DECO system"
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -43,6 +49,9 @@
             "Tools and Technology used: Amazon Web Services (AWS), AWS Elastic BeanStalk,  AWS S3 Bucket, SQL Server and SMSS, .NET Core 2.2, WebAPI, ASP.NET MVC, jQuery, JavaScript, UIKit",
             "Utilized Trello for project management and task management",
             "Interfaced with the designer to implement screen mockups made in Zeplin"
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -68,6 +77,9 @@
             "Met with business users to gather requirements and direct user acceptance testing (UAT).",
             "Met our third party software and content development vendor (Punchcard Systems) frequently to discuss, plan and coordinate Rosenau website, customer portal, employee portal, etc. projects.",
             "Helped grow a development team of 1 into 4 developers using agile concepts and software development methodologies and standards to develop into a more efficient and service driven team."
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -90,6 +102,9 @@
             "Assisted new employees to get up to speed with the development environment.",
             "Languages/Frameworks/Tools Used: C#, ASP, ASP.NET Web Forms, ASP.NET MVC, jQuery, AngularJS, Entity Framework, ADO.NET, SQL Server and Octopus Deploy",
             "Developer Tools: Git, TFS, Octopus Deploy, SQL Server, IIS, Chrome/IE Developer Tools (debugging)."
+            
+        ],
+        "experiences-light": [
             
         ]
     },
@@ -126,6 +141,9 @@
             "Participated in demos of application functionality to CoE staff and stakeholders.",
             "Worked closely with the QA team and business analyst to test deployments to UAT and Production.",
             "Troubleshooted issues with production deployments in web application configuration, web server configuration and database server."
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -147,6 +165,9 @@
             "Consulted with Ministry of Justice business analysts to gather business requirements.",
             "Visited courtrooms and staff that were actively using the courtroom booking application.",
             "Managed deployments of WCF services to the Production environment and troubleshooted issues that arose."
+            
+        ],
+        "experiences-light": [
             
         ]
     },
@@ -171,6 +192,9 @@
             "Participated in demos and user acceptance testing in front of CoE staff.",
             "Developed new features and improvements to document aggregation tool from both verbal instructions and business requirements documents and provided constant impact analysis to team leader/architect for proposed changes/additions.",
             "Managed database tables, objects, scripts, etc. with TOAD for Oracle."
+            
+        ],
+        "experiences-light": [
             
         ]
     },
@@ -198,6 +222,9 @@
             "Developed flow charts of existing functionality to better understand the flow of events.",
             "Worked closely with the QA team to test functionality before deploying into production.",
             "Troubleshooted and fixed various issues (configuration, code, database, etc.) in the Production environment."
+            
+        ],
+        "experiences-light": [
             
         ]
     },
@@ -227,6 +254,9 @@
             "Worked with a designer to incorporate visual components into HTML.",
             "Implemented Cascading Style sheets (CSS) and JavaScript to spice up site look and feel.",
             "Worked with the business owner to improve the operation of the website."            
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -248,6 +278,9 @@
             "Researched several different business rules engines for possible application in the enterprise environment.",
             "Lead and participated in demos and presentations to ASEBP staff members.",
             "Developed new features from written business requirements and meetings with ASEBP staff and provided impact analysis on proposed changes."
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -264,6 +297,9 @@
             "Implemented new features and bug fixes under time constraints. ",
             "Maintained code in CVS source control.",
             "Managed look and feel of UI components with Cascading Style Sheets (CSS)"            
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -277,6 +313,9 @@
             "",
             "",
             ""
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -290,6 +329,9 @@
             "",
             "",
             ""
+        ],
+        "experiences-light": [
+            
         ]
     },
     {
@@ -303,6 +345,9 @@
             "",
             "",
             ""
+        ],
+        "experiences-light": [
+            
         ]
     }
 ]

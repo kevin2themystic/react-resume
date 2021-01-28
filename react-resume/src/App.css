@@ -1,27 +1,143 @@
-.blueIcon {
-  color: #1C266B;
-}
+/* Prussian Blue: #083C5D */
+/* Sky Blue: #328CC1 */
+/* Gold Leaf: #D9B310 */
+/* Ivory Black: #1D2731 */
 
 .component {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-bottom: 10px;
 }
 
 .section {
   margin-top: 10px;
 }
 
-.sectionHeader {
-  color: #1C266B;
+.section-header {
+  color: #1D2731;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.menu {
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
 .link {
   padding-right: 10px;
+  color: #328CC1
+}
+.header-component {
+  margin: 10px;
+  background-color:#083C5D;
+}
+.header-link {
+  color:white;
+  font-size: 18px;
+}
+a:hover {
+  color: #328CC1;
 }
 
-.sectionSection {
+.header-icon {
+  color: #328CC1;
+}
+.resume-name {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.resume-title {
+  font-size: 32px;
+  color: #D9B310;
+}
+
+.resume-stack {
+  font-size: 24px;
+  color: #D9B310;
+}
+
+.resume-contact-info {
+  padding-top: 25px;
+}
+
+.resume-phone {
+  color: white;
+  font-size: 18px;
+}
+
+.menu-link {
+  color: #D9B310;
+  font-weight: 500;
+}
+
+.section-section {
   padding-top: 5px;
+}
+
+.education {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.edOrganization {
+  color: #1C266B;
+  font-size: 16px;
+  font-weight: bold;
+}
+.edProgramName {
+  color: #b9b6b6;
+  font-size: 14px;
+}
+.edDates {
+  color: #b9b6b6;
+  font-size: 14px;
+}
+.edLocation {
+  color: #b9b6b6;
+  font-size: 14px;
+}
+
+.skill-category {
+  color: #1C266B;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skill-category-component {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.work-experience {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.weOrganization {
+  color: #1C266B;
+  font-size: 16px;
+  font-weight: bold;
+}
+.weTitle {
+  color: #9b9797;
+  font-size: 16px;
+  font-weight: bold;
+}
+.weMoreInfo {
+  color: #b9b6b6;
+  font-size: 14px;
+}
+
+
+.footer-component {
+  margin: 10px;
+  background-color:#083C5D;
+}
+
+.copywrite {
+  color:white;
 }
 
 

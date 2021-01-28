@@ -6,7 +6,7 @@ import Container from "@material-ui/core/Container";
 // Custom Imports
 import Header from "./Components/Header/Header";
 import AboutMe from "./Components/AboutMe/AboutMe";
-import Objective from "./Components/Objective/Objective";
+import AboutThisSite from "./Components/AboutThisSite/AboutThiSite"; 
 import SkillList from "./Components/Skills/SkillList";
 import WorkExperienceList from "./Components/WorkExperience/WorkExperienceList";
 import EducationList from "./Components/Education/EducationList";
@@ -25,33 +25,27 @@ function App() {
       <Container fixed>
         <Header />  
         <Router>
-          <div className="component">
+          <div className="menu">
             <div className="links">
-                <NavLink to="/aboutme" className="link">About Me</NavLink>
-                <NavLink to="/objective" className="link">Objective</NavLink>
-                <NavLink to="/skills" className="link">Skills</NavLink>
-                <NavLink to="/workexperience" className="link">Work Experience</NavLink>
-                <NavLink to="/education" className="link">Education</NavLink>
-                <NavLink to="/training" className="link">Training</NavLink>
+                <NavLink to="/about-me" className="menu-link btn">About Me</NavLink>
+                <NavLink to="/skills" className="menu-link btn">Skills</NavLink>
+                <NavLink to="/worke-xperience" className="menu-link btn">Work Experience</NavLink>
+                <NavLink to="/education" className="menu-link btn">Education</NavLink>
+                <NavLink to="/training" className="menu-link btn">Training</NavLink>
+                <NavLink to="/about-this-site" className="menu-link btn">About This Site</NavLink>
             </div>
             <Switch>
-                <Route exact path="/" component={ WorkExperienceList }/>
-                <Route exact path="/aboutme" component={ AboutMe }/>
-                <Route exact path="/objective" component={ Objective }/> 
+                <Route exact path="/" component={ AboutMe }/>
+                <Route exact path="/about-me" component={ AboutMe }/>
                 <Route exact path="/skills" component={ SkillList }/>
-                <Route exact path="/workexperience" component={ WorkExperienceList }/>  
+                <Route exact path="/worke-xperience" component={ WorkExperienceList }/>  
                 <Route exact path="/education" component={ EducationList }/>
-                <Route exact path="/training" component={ TrainingList }/>            
-                <Route exact render={ () => <h2>No content found.</h2> }/>
+                <Route exact path="/training" component={ TrainingList }/>   
+                <Route exact path="/about-this-site" component={ AboutThisSite }/>            
+                <Route exact render={ () => <div className="component">No content found.</div> }/>
             </Switch>            
           </div>
         </Router>
-        {/* <AboutMe />
-        <Objective />
-        <SkillList />
-        <WorkExperienceList />
-        <EducationList />
-        <TrainingList /> */}
         <Footer />
       </Container>
     </div>

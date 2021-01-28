@@ -1,9 +1,5 @@
 // Main Imports
 import React from "react";
-// Material UI
-//import Avatar from "@material-ui/core/Avatar";
-// Custom CSS
-import "./Education.css";
 
 export interface EducationProps {
   institution: String;

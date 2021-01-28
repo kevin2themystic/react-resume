@@ -1,9 +1,10 @@
 {
     "name": "Kevin Parkinson",
     "title": "Full Stack Developer",
+    "stack": "C# | React + Typescript | ASP.NET | Web API | SQL",
     "phone": "(780) 405-6118",
     "email": "kevin@peakselfliving.com",
-    "avatar": "img/KP.jpg",
+    "avatar": "https://kevin2themystic.github.io/kevin-parkinson-portfolio/images/KevinPhone.jpg?raw=true",
     "pdfResume": "pdf/KevinParkinsonResume.pdf",
     "pdfResumeName": "KevinParkinsonResume.pdf",
     "portfolio": "https://kevin2themystic.github.io/kevin-parkinson-portfolio/"

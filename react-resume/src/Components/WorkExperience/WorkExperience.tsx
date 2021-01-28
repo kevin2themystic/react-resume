@@ -3,8 +3,6 @@ import React from 'react';
 // Material UI
 //import Avatar from "@material-ui/core/Avatar";
 // Custom Imports
-// Custom CSS
-import './WorkExperience.css';
 
 export interface WorkExperienceProps {
   organization: string;
