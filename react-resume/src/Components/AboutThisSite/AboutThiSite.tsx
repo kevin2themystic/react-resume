@@ -6,15 +6,17 @@ class AboutThiSite extends React.Component {
     return (
     <div className="component">
       <div className="section-header">ABOUT THIS SITE</div>
+      <div className="section-section">This site was built with:</div>
       <div className="section-section">
-        This site was built with:
         <ul>
           <li>create-react-app</li>
           <li>React</li>
           <li>Typescript</li>
           <li>Material-UI</li>
+          <li>Yarn</li>
           <li>React Testing Library</li>
-          <li>GitHub Pages</li>            
+          <li>GitHub Pages</li>     
+          <li>Visual Studio Code</li>            
         </ul>         
       </div> 
       <div className="section-section">

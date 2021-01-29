@@ -9,7 +9,8 @@ import Switch from '@material-ui/core/Switch';
 import workExperienceData from "../../data/workexperience.json";
 
 interface WorkExperienceState {
-  simplifiedView: boolean
+  viewDetails: boolean;
+  simplifiedDetailsView: boolean;
 }
 
 class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
@@ -17,7 +18,8 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
   constructor(props: {}) {
     super(props);
     this.state = {
-      simplifiedView: true
+      viewDetails: false,
+      simplifiedDetailsView: true
     }
   }
 
@@ -26,12 +28,20 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
       <div className="component">
         <div className="section-header">PROFESSIONAL EXPERIENCE</div>
         <div className="row">
-          <div className="col-md-9"></div>
+          <div className="col-md-7"></div>
           <div className="col-md-3">
-          <FormControlLabel
-            control={<Switch checked={this.state.simplifiedView} color="primary" onChange={this.handleViewChange} name="gilad" />}
-            label="Simplified View"
-          />
+            {this.state && this.state.viewDetails &&
+              <FormControlLabel
+                control={<Switch checked={this.state.simplifiedDetailsView} color="primary" onChange={this.handleSimplifiedDetailsChange} name="SimplifiedDetails" />}
+                label="Simplified Details"
+              />            
+            }
+          </div>
+          <div className="col-md-2">
+            <FormControlLabel
+              control={<Switch checked={this.state.viewDetails} color="primary" onChange={this.handleViewDetailsChange} name="ViewDetails" />}
+              label="View Details"
+            />
           </div>
         </div>
         {workExperienceData.filter(we => we.type === "professional").map((we, idx) => 
@@ -40,7 +50,8 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
                           startDate={we.startDate}
                           endDate={we.endDate}
                           location={we.location}
-                          descriptions={this.state.simplifiedView ? we.experiencesSimplified : we.experiences} />
+                          descriptions={this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences}
+                          viewDetails={this.state.viewDetails} />
         )}
         <div className="section-header">INTERNSHIPS</div>
         {workExperienceData.filter(we => we.type === "internship").map((we, idx) => 
@@ -49,14 +60,19 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
                           startDate={we.startDate}
                           endDate={we.endDate}
                           location={we.location}
-                          descriptions={this.state.simplifiedView ? we.experiencesSimplified : we.experiences} />
+                          descriptions={this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences}
+                          viewDetails={this.state.viewDetails} />
         )}
       </div>
     );
   } 
 
-  handleViewChange = () => {
-    this.setState({simplifiedView: !this.state.simplifiedView});
+  handleViewDetailsChange = () => {
+    this.setState({viewDetails: !this.state.viewDetails});
+  }
+
+  handleSimplifiedDetailsChange = () => {
+    this.setState({simplifiedDetailsView: !this.state.simplifiedDetailsView});
   }
 }
 

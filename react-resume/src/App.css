@@ -88,7 +88,8 @@ a:hover {
 }
 
 .section-section {
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .education {
@@ -102,27 +103,21 @@ a:hover {
 }
 .ed-program-name {
   color: #D9B310;
-  font-size: 14px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-weight: bold;
 }
 .ed-dates {
   color: #328CC1;
   font-size: 14px;
+  padding-bottom: 5px;
 }
 .ed-location {
   color: #328CC1;
   font-size: 14px;
-}
-
-.skill-category {
-  color: #1C266B;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.skill-category-component {
-  padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .work-experience {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -131,15 +126,18 @@ a:hover {
   color: #083C5D;
   font-size: 16px;
   font-weight: bold;
+  padding-bottom: 5px;
 }
 .we-title {
   color: #D9B310;
   font-size: 16px;
   font-weight: bold;
+  padding-bottom: 5px;
 }
 .we-more-info {
   color: #328CC1;
   font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .gold-switch {
@@ -158,6 +156,11 @@ a:hover {
 
 .copywrite {
   color:white;
+}
+
+li {
+  padding-top:8px;
+  padding-bottom:8px;
 }
 
 

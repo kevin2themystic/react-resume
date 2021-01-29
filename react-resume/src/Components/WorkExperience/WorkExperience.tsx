@@ -11,6 +11,7 @@ export interface WorkExperienceProps {
   endDate: string;
   location: string;
   descriptions: string[];
+  viewDetails: boolean;
 }
 
 class WorkExperience extends React.Component<WorkExperienceProps, {}> {
@@ -22,11 +23,13 @@ class WorkExperience extends React.Component<WorkExperienceProps, {}> {
         <div className="we-more-info">
           {this.props.startDate} to {this.props.endDate} in {this.props.location}
         </div>
-        <ul>
-          {this.props.descriptions.map((weexperience, idx) => 
-            <li key={idx}>{weexperience}</li>
-          )}
-        </ul>
+        {this.props && this.props.viewDetails &&
+          <ul>
+            {this.props.descriptions.map((weexperience, idx) => 
+              <li key={idx}>{weexperience}</li>
+            )}
+          </ul>        
+        }
       </div>
   );
   } 
