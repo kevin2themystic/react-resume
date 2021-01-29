@@ -17,9 +17,9 @@ class WorkExperience extends React.Component<WorkExperienceProps, {}> {
   render () {
     return (
       <div className="work-experience">
-        <div className="weOrganization">{this.props.organization}</div>
-        <div className="weTitle">{this.props.title}</div>
-        <div className="weMoreInfo">
+        <div className="we-organization">{this.props.organization}</div>
+        <div className="we-title">{this.props.title}</div>
+        <div className="we-more-info">
           {this.props.startDate} to {this.props.endDate} in {this.props.location}
         </div>
         <ul>

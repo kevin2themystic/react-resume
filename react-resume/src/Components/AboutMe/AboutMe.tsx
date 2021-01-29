@@ -10,9 +10,24 @@ class AboutMe extends React.Component {
     return (
     <div className="component">
       <div className="section-header">ABOUT ME</div>
-      <div className="section-section">{aboutMeData.aboutme}</div>
-      <div className="section-section">Total Years Experience: {aboutMeData.totalYearsExperience}</div>
-      <div className="section-section">Top Skills: {aboutMeData.topSkills}</div>      
+      <div className="section-section">Total Years Experience: {new Date().getFullYear() - 2007}</div>
+      <div className="section-section">{aboutMeData.aboutMe1}</div>  
+      <div className="section-section">{aboutMeData.aboutMe2}</div>  
+      <ul>        
+        {aboutMeData.organizationTypes.map((ot, idx) => 
+            <li key={idx}>{ot}</li>
+          )}
+      </ul>
+
+      <div>My core values are:</div>
+      <ul>        
+        {aboutMeData.coreValues.map((cv, idx) => 
+            <li key={idx}>{cv}}</li>
+          )}
+      </ul>
+      
+      <div className="section-section">{aboutMeData.aboutMe3}</div>  
+      <div className="section-section">{aboutMeData.aboutMe4}</div> 
       <div className="section-header">OBJECTIVE</div>
       <p className="section-section">{objectiveData.objective1}</p>  
       <p className="section-section">{objectiveData.objective2}</p>  

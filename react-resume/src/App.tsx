@@ -7,7 +7,6 @@ import Container from "@material-ui/core/Container";
 import Header from "./Components/Header/Header";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import AboutThisSite from "./Components/AboutThisSite/AboutThiSite"; 
-import SkillList from "./Components/Skills/SkillList";
 import WorkExperienceList from "./Components/WorkExperience/WorkExperienceList";
 import EducationList from "./Components/Education/EducationList";
 import TrainingList from "./Components/Training/TrainingList";
@@ -33,16 +32,18 @@ function App() {
                 <NavLink to="/training" className="menu-link btn">Training</NavLink>
                 <NavLink to="/about-this-site" className="menu-link btn">About This Site</NavLink>
             </div>
-            <Switch>
-                <Route exact path="/" component={ AboutMe }/>
-                <Route exact path="/react-resume" component={ AboutMe }/>
-                <Route exact path="/about-me" component={ AboutMe }/>
-                <Route exact path="/work-xperience" component={ WorkExperienceList }/>  
-                <Route exact path="/education" component={ EducationList }/>
-                <Route exact path="/training" component={ TrainingList }/>   
-                <Route exact path="/about-this-site" component={ AboutThisSite }/>            
-                <Route exact render={ () => <div className="component">No content found.</div> }/>
-            </Switch>            
+            <div className="scroll">
+              <Switch>
+                  <Route exact path="/" component={ AboutMe }/>
+                  <Route exact path="/react-resume" component={ AboutMe }/>
+                  <Route exact path="/about-me" component={ AboutMe }/>
+                  <Route exact path="/work-xperience" component={ WorkExperienceList }/>  
+                  <Route exact path="/education" component={ EducationList }/>
+                  <Route exact path="/training" component={ TrainingList }/>   
+                  <Route exact path="/about-this-site" component={ AboutThisSite }/>            
+                  <Route exact render={ () => <div className="component">No content found.</div> }/>
+              </Switch>              
+            </div>          
           </div>
         </Router>
         <Footer />

@@ -1,7 +1,28 @@
 {
-    "aboutme": "I am an enthusiastic, open, honest full stack developer who enjoys solving problems in teams who is always looking for the balance between creativity and process/structure.",
-    "totalYearsExperience": "13",
-    "topSkills": "C#, React, WebAPI, SQL",
+    "aboutMe1": "Full Stack Developer (in the C#, JavaScript, React + Typescript, .NET, WebAPI and SQL stack) with experience in both the public and private sector.",
+    "aboutMe2": "I have worked with a wide range of companies and organizations with a wide variety of sizes and complexity over my career, such as:",
+    "aboutMe3": "Extensive experience with C# developing a wide range of applications: Windows Forms, Windows Presentation Foundation (WPF), ASP.NET Web Forms, ASP.NET MVC, ASP.NET Web Services, Windows Communication Foundation (WCF), WebAPI, .NET Core.",
+    "aboutMe4": "Extensive experience designing and developing relational database systems mainly in SQL Server but also including Oracle, MySQL, PostgreSQL and IBM DB2.",
+    "organizationTypes": [
+        "Alberta Government Ministries: Health and Wellness, Justice, Education, Agriculture",
+        "Smaller Government-Related Organizations: City of Edmonton, Alberta Gaming Liquor and Cannabis Commission (AGLC), Alberta School Employee Benefit Plan (ASEBP)",
+        "Saputo (the dairy company that owns Dairyland and has 11,000 employees)",
+        "CGI (high profile consulting company with thousands of employees worldwide)",
+        "EMIS Inc. (a company that started its Patient Care System in the UK)",
+        "Stream Property Solutions (start-up)"
+    ],
+    "coreValues": [
+        "Honesty",
+        "Integrity",
+        "Kindness",
+        "Communication",
+        "Collaboration",
+        "Team Work",
+        "Customer-focused",
+        "Translating your business requirements into user-friendly applications",
+        "Well designed, well maintained and bulletproof code"
+    ],
+    "topSkills": "C#, React + Typescript, ASP.NET, WebAPI, .NET Core and SQL Server",
     "moreSkills": [
         ""
     ]

@@ -1,9 +1,5 @@
 // Main Imports
 import React from "react";
-// Data
-import aboutMeData from "../../data/aboutme.json";
-// Data
-import objectiveData from "../../data/objective.json";
 
 class AboutThiSite extends React.Component {
   render () {
@@ -22,7 +18,7 @@ class AboutThiSite extends React.Component {
         </ul>         
       </div> 
       <div className="section-section">
-        Checkout the source code for this site on <a className="link" href="https://github.com/kevin2themystic/react-resume">Github</a>.
+        Checkout the source code for this site on <a className="link" target="_blank" rel="noopener noreferrer" href="https://github.com/kevin2themystic/react-resume">Github</a>
       </div> 
     </div>
   );

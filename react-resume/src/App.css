@@ -3,8 +3,20 @@
 /* Gold Leaf: #D9B310 */
 /* Ivory Black: #1D2731 */
 
+body {
+  color: #1D2731;
+}
+
+div.scroll {
+  margin: 5px;
+  height: 635px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px;
+}
+
 .component {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 20px;
   padding-right:20px;
   padding-bottom: 10px;
@@ -83,21 +95,21 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.edOrganization {
-  color: #1C266B;
+.ed-organization {
+  color: #083C5D;
   font-size: 16px;
   font-weight: bold;
 }
-.edProgramName {
-  color: #b9b6b6;
+.ed-program-name {
+  color: #D9B310;
   font-size: 14px;
 }
-.edDates {
-  color: #b9b6b6;
+.ed-dates {
+  color: #328CC1;
   font-size: 14px;
 }
-.edLocation {
-  color: #b9b6b6;
+.ed-location {
+  color: #328CC1;
   font-size: 14px;
 }
 
@@ -115,18 +127,18 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.weOrganization {
-  color: #1C266B;
+.we-organization {
+  color: #083C5D;
   font-size: 16px;
   font-weight: bold;
 }
-.weTitle {
-  color: #9b9797;
+.we-title {
+  color: #D9B310;
   font-size: 16px;
   font-weight: bold;
 }
-.weMoreInfo {
-  color: #b9b6b6;
+.we-more-info {
+  color: #328CC1;
   font-size: 14px;
 }
 
@@ -136,8 +148,12 @@ a:hover {
 
 
 .footer-component {
-  margin: 10px;
+  padding-top: 10px;
   background-color:#083C5D;
+  position:absolute;                  
+  bottom:0;   
+  width: 1212px;
+  text-align: left;
 }
 
 .copywrite {
