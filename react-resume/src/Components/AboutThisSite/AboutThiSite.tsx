@@ -20,7 +20,10 @@ class AboutThiSite extends React.Component {
           <li>React Testing Library</li>
           <li>GitHub Pages</li>            
         </ul>         
-      </div>  
+      </div> 
+      <div className="section-section">
+        Checkout the source code for this site on <a className="link" href="https://github.com/kevin2themystic/react-resume">Github</a>.
+      </div> 
     </div>
   );
   } 

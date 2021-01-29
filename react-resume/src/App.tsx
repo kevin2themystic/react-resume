@@ -28,17 +28,16 @@ function App() {
           <div className="menu">
             <div className="links">
                 <NavLink to="/about-me" className="menu-link btn">About Me</NavLink>
-                <NavLink to="/skills" className="menu-link btn">Skills</NavLink>
-                <NavLink to="/worke-xperience" className="menu-link btn">Work Experience</NavLink>
+                <NavLink to="/work-xperience" className="menu-link btn">Work Experience</NavLink>
                 <NavLink to="/education" className="menu-link btn">Education</NavLink>
                 <NavLink to="/training" className="menu-link btn">Training</NavLink>
                 <NavLink to="/about-this-site" className="menu-link btn">About This Site</NavLink>
             </div>
             <Switch>
                 <Route exact path="/" component={ AboutMe }/>
+                <Route exact path="/react-resume" component={ AboutMe }/>
                 <Route exact path="/about-me" component={ AboutMe }/>
-                <Route exact path="/skills" component={ SkillList }/>
-                <Route exact path="/worke-xperience" component={ WorkExperienceList }/>  
+                <Route exact path="/work-xperience" component={ WorkExperienceList }/>  
                 <Route exact path="/education" component={ EducationList }/>
                 <Route exact path="/training" component={ TrainingList }/>   
                 <Route exact path="/about-this-site" component={ AboutThisSite }/>            
