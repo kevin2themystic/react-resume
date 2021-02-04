@@ -1,26 +1,23 @@
 {
-    "aboutMe1": "Full Stack Developer (in the C#, JavaScript, React + Typescript, .NET, WebAPI and SQL stack) with experience in both the public and private sector.",
-    "aboutMe2": "I have worked with a wide range of companies and organizations with a wide variety of sizes and complexity over my career, such as:",
-    "aboutMe3": "Extensive experience with C# developing a wide range of applications: Windows Forms, Windows Presentation Foundation (WPF), ASP.NET Web Forms, ASP.NET MVC, ASP.NET Web Services, Windows Communication Foundation (WCF), WebAPI, .NET Core.",
-    "aboutMe4": "Extensive experience designing and developing relational database systems mainly in SQL Server but also including Oracle, MySQL, PostgreSQL and IBM DB2.",
+    "aboutMe1": "Are you looking for a Full Stack Developer in the  Microsoft .NET and React + TypeScript vein?",
+    "aboutMe2": "Experience in Organizations, Sectors and Industries",
+    "aboutMe3": "The C# programming language.",
+    "aboutMe4": "Developing a wide range of applications: Windows Forms, Windows Presentation Foundation (WPF), ASP.NET Web Forms, ASP.NET MVC, ASP.NET Web Services, Windows Communication Foundation (WCF), WebAPI, .NET Core.",
+    "aboutMe5": "Designing and developing relational databases (Main: SQL Server, Others: Oracle, MySQL, PostgreSQL and IBM DB2.",
     "organizationTypes": [
-        "Alberta Government Ministries: Health and Wellness, Justice, Education, Agriculture",
-        "Smaller Government-Related Organizations: City of Edmonton, Alberta Gaming Liquor and Cannabis Commission (AGLC), Alberta School Employee Benefit Plan (ASEBP)",
-        "Saputo (the dairy company that owns Dairyland and has 11,000 employees)",
-        "CGI (high profile consulting company with thousands of employees worldwide)",
-        "EMIS Inc. (a company that started its Patient Care System in the UK)",
-        "Stream Property Solutions (start-up)"
+        "Alberta Health and Wellness, Alberta Justice, Alberta Education, Alberta Agriculture",
+        "City of Edmonton, Alberta Gaming Liquor and Cannabis Commission (AGLC), Alberta School Employee Benefit Plan (ASEBP)",
+        "Consulting, Dairy, Health and Wellness, Transportation, Real Estate Industries and More"
     ],
     "coreValues": [
-        "Honesty",
-        "Integrity",
-        "Kindness",
-        "Communication",
-        "Collaboration",
-        "Team Work",
+        "Honesty & Integrity",
+        "lorem ipsum",
+        "Kindness & Communication",
+        "lorem ipsum",
+        "Team Work & Collaboration",
+        "Well designed, well maintained and bulletproof code",
         "Customer-focused",
-        "Translating your business requirements into user-friendly applications",
-        "Well designed, well maintained and bulletproof code"
+        "Translating your business requirements into user-friendly applications"
     ],
     "topSkills": "C#, React + Typescript, ASP.NET, WebAPI, .NET Core and SQL Server",
     "moreSkills": [

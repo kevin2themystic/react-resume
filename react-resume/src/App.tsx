@@ -32,7 +32,7 @@ function App() {
                 <NavLink to="/training" className="menu-link btn">Training</NavLink>
                 <NavLink to="/about-this-site" className="menu-link btn">About This Site</NavLink>
             </div>
-            <div className="scroll">
+            <div>
               <Switch>
                   <Route exact path="/" component={ AboutMe }/>
                   <Route exact path="/react-resume" component={ AboutMe }/>
@@ -40,7 +40,7 @@ function App() {
                   <Route exact path="/work-xperience" component={ WorkExperienceList }/>  
                   <Route exact path="/education" component={ EducationList }/>
                   <Route exact path="/training" component={ TrainingList }/>   
-                  <Route exact path="/about-this-site" component={ AboutThisSite }/>            
+                  <Route exact path="/about-this-site" component={ AboutThisSite }/> 
                   <Route exact render={ () => <div className="component">No content found.</div> }/>
               </Switch>              
             </div>          

@@ -7,14 +7,6 @@ body {
   color: #1D2731;
 }
 
-div.scroll {
-  margin: 5px;
-  height: 635px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding: 5px;
-}
-
 .component {
   padding-top: 5px;
   padding-left: 20px;
@@ -33,6 +25,15 @@ div.scroll {
   margin-top: 20px;
 }
 
+.section-subheader {
+  color: #1D2731;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .menu {
   padding-top: 5px;
   padding-left: 10px;
@@ -49,6 +50,17 @@ div.scroll {
 .header-link {
   color:white;
   font-size: 18px;
+}
+
+.years-experience {
+  background-color: #328CC1;
+  /* opacity: 55%; */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
 }
 a:hover {
   color: #328CC1;
@@ -73,10 +85,6 @@ a:hover {
   color: #D9B310;
 }
 
-.resume-contact-info {
-  padding-top: 25px;
-}
-
 .resume-phone {
   color: white;
   font-size: 18px;
@@ -90,6 +98,26 @@ a:hover {
 .section-section {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.about-me-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-me-sector {
+  text-align: center;
+  height: 100%;
+}
+
+.about-me-core-value {
+  text-align: center;
+  height: 100%;
+}
+
+.about-me-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .education {
@@ -144,12 +172,14 @@ a:hover {
   color: #D9B310
 }
 
+.contact-form {
+  padding-top: 20px;
+  width: 60%;
+}
 
 .footer-component {
   padding-top: 10px;
-  background-color:#083C5D;
-  position:absolute;                  
-  bottom:0;   
+  background-color:#083C5D;  
   width: 1212px;
   text-align: left;
 }
