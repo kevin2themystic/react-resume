@@ -1,5 +1,37 @@
 [
     {
+        "organization": "Parkland Fuels",
+        "title": "Full Stack Developer",
+        "startDate": "May 31 2020",
+        "endDate": "",
+        "location": "Calgary, AB Canada",
+        "type": "professional",
+        "experiences": [
+            "coming soon."
+        ],        
+        "experiencesSimplified": [
+            "coming soon."
+        ]
+    },
+    {
+        "organization": "Association of Professional Engineers and Geoscientists of Alberta (APEGA)",
+        "title": "Application Developer",
+        "startDate": "Feb. 2020",
+        "endDate": "May 2020",
+        "location": "Edmonton, AB Canada",
+        "type": "professional",
+        "experiences": [
+            "Helped finish development and testing on the MEx (Member Experience) project.",
+            "Documented current and future state of source code management and continuous integration and delivery processes.",
+            "Relevant tools:Atlassian Confluence (documentation), Bitbucket (source code management), Bamboo (automated builds and deployments) and JIRA (task management) and SQL Server"
+        ],        
+        "experiencesSimplified": [
+            "Helped finish development and testing on the MEx (Member Experience) project.",
+            "Documented current and future state of source code management and continuous integration and delivery processes.",
+            "Relevant tools:Atlassian Confluence (documentation), Bitbucket (source code management), Bamboo (automated builds and deployments) and JIRA (task management) and SQL Server"
+        ]
+    },
+    {
         "organization": "Alberta Gaming and Liquor Comission (AGLC) - Alberta Manufacturers Improvements Team",
         "title": "Web Developer",
         "startDate": "June 2020",

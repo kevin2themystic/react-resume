@@ -1,9 +1,7 @@
-// Main Imports
 import React from "react";
 
-class AboutThiSite extends React.Component {
-  render () {
-    return (
+function AboutThiSite () {
+  return (
     <div className="component">
       <div className="section-header">ABOUT THIS SITE</div>
       <div className="section-section">This site was built with:</div>
@@ -13,7 +11,9 @@ class AboutThiSite extends React.Component {
           <li>React</li>
           <li>Typescript</li>
           <li>Material-UI</li>
+          <li>Node Package manager (NPM)</li>
           <li>Yarn</li>
+          <li>Sentry.io</li>
           <li>React Testing Library</li>
           <li>GitHub Pages</li>     
           <li>Visual Studio Code</li>            
@@ -24,7 +24,6 @@ class AboutThiSite extends React.Component {
       </div> 
     </div>
   );
-  } 
 }
 
 export default AboutThiSite;

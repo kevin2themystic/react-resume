@@ -1,4 +1,3 @@
-// Main Imports
 import React from 'react';
 
 export interface TrainingProps {
@@ -15,7 +14,7 @@ class Training extends React.Component<TrainingProps, {}> {
       <div className="section-section">
         <div><a href={this.props.webLink} className="link" target="_blank" rel="noopener noreferrer">{this.props.name}</a> - {this.props.startDate} </div>
       </div>
-  );
+    );
   } 
 }
 

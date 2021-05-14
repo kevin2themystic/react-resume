@@ -4,13 +4,13 @@
 /* Ivory Black: #1D2731 */
 
 body {
-  color: #1D2731;
+  color: #1d2731;
 }
 
 .component {
   padding-top: 5px;
   padding-left: 20px;
-  padding-right:20px;
+  padding-right: 20px;
   padding-bottom: 10px;
 }
 
@@ -19,14 +19,14 @@ body {
 }
 
 .section-header {
-  color: #1D2731;
+  color: #1d2731;
   font-size: 20px;
   font-weight: 500;
   margin-top: 20px;
 }
 
 .section-subheader {
-  color: #1D2731;
+  color: #1d2731;
   font-size: 18px;
   font-weight: 500;
   margin-top: 20px;
@@ -34,26 +34,26 @@ body {
   text-align: center;
 }
 
-.menu {
+.main-content {
   padding-top: 5px;
   padding-left: 10px;
 }
 
 .link {
   padding-right: 10px;
-  color: #328CC1
+  color: #328cc1;
 }
 .header-component {
   margin: 10px;
-  background-color:#083C5D;
+  background-color: #083c5d;
 }
 .header-link {
-  color:white;
+  color: white;
   font-size: 18px;
 }
 
 .years-experience {
-  background-color: #328CC1;
+  background-color: #328cc1;
   /* opacity: 55%; */
   color: white;
   font-weight: bold;
@@ -63,11 +63,11 @@ body {
   text-align: center;
 }
 a:hover {
-  color: #328CC1;
+  color: #328cc1;
 }
 
 .header-icon {
-  color: #328CC1;
+  color: #328cc1;
 }
 .resume-name {
   font-size: 48px;
@@ -77,12 +77,12 @@ a:hover {
 
 .resume-title {
   font-size: 32px;
-  color: #D9B310;
+  color: #d9b310;
 }
 
 .resume-stack {
   font-size: 24px;
-  color: #D9B310;
+  color: #d9b310;
 }
 
 .resume-phone {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .menu-link {
-  color: #D9B310;
+  color: #d9b310;
   font-weight: 500;
 }
 
@@ -115,7 +115,7 @@ a:hover {
   height: 100%;
 }
 
-.about-me-text{
+.about-me-text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -125,23 +125,23 @@ a:hover {
   padding-bottom: 10px;
 }
 .ed-organization {
-  color: #083C5D;
+  color: #083c5d;
   font-size: 16px;
   font-weight: bold;
 }
 .ed-program-name {
-  color: #D9B310;
+  color: #d9b310;
   font-size: 16px;
   padding-bottom: 5px;
   font-weight: bold;
 }
 .ed-dates {
-  color: #328CC1;
+  color: #328cc1;
   font-size: 14px;
   padding-bottom: 5px;
 }
 .ed-location {
-  color: #328CC1;
+  color: #328cc1;
   font-size: 14px;
   padding-bottom: 5px;
 }
@@ -151,25 +151,29 @@ a:hover {
   padding-bottom: 10px;
 }
 .we-organization {
-  color: #083C5D;
+  color: #083c5d;
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 5px;
 }
 .we-title {
-  color: #D9B310;
+  color: #d9b310;
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 5px;
 }
 .we-more-info {
-  color: #328CC1;
+  color: #328cc1;
   font-size: 14px;
   padding-bottom: 5px;
 }
+.we-currently-position {
+  color: #1d2731;
+  font-size: 10px;
+}
 
 .gold-switch {
-  color: #D9B310
+  color: #d9b310;
 }
 
 .contact-form {
@@ -179,18 +183,16 @@ a:hover {
 
 .footer-component {
   padding-top: 10px;
-  background-color:#083C5D;  
+  background-color: #083c5d;
   width: 1212px;
   text-align: left;
 }
 
 .copywrite {
-  color:white;
+  color: white;
 }
 
 li {
-  padding-top:8px;
-  padding-bottom:8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
-
-

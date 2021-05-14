@@ -1,17 +1,24 @@
 [
     {
+        "name": "Mastering React w/Mosh Hamedani",
+        "description": "Teachable",
+        "startDate": "May 2020",
+        "endDate": "May 2021",
+        "webLink": "https://codewithmosh.com/courses/enrolled/357787"
+    },
+    {
+        "name": "The Complete Node.js Course w/Mosh Hamedani",
+        "description": "Teachable",
+        "startDate": "May 2021",
+        "endDate": "June 2021",
+        "webLink": "https://codewithmosh.com/courses/enrolled/293204"
+    },
+    {
         "name": "React Native w/Mosh Hamedani",
         "description": "Teachable",
         "startDate": "June 2020",
-        "endDate": "June 2020",
+        "endDate": "June 2021",
         "webLink": "https://codewithmosh.com/courses/enrolled/887220"
-    },
-    {
-        "name": "Mastering React w/Mosh Hamedani",
-        "description": "Teachable",
-        "startDate": "May. 2020",
-        "endDate": "May. 2020",
-        "webLink": "https://codewithmosh.com/courses/enrolled/357787"
     },
     {
         "name": "React Native: Getting Started",

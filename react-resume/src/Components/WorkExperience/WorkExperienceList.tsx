@@ -1,11 +1,7 @@
-// Main Imports
 import React from 'react';
-// Custom Imports
-import WorkExperience from "./WorkExperience";
-// MAterial UI
+import WorkExperience from "./workExperience";
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
-// Data
 import workExperienceData from "../../data/workexperience.json";
 
 interface WorkExperienceState {
@@ -45,23 +41,15 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
           </div>
         </div>
         {workExperienceData.filter(we => we.type === "professional").map((we, idx) => 
-          <WorkExperience key={idx} organization={we.organization}
-                          title={we.title}
-                          startDate={we.startDate}
-                          endDate={we.endDate}
-                          location={we.location}
-                          descriptions={this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences}
-                          viewDetails={this.state.viewDetails} />
+          this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
+                                      we.endDate, we.location,
+                                      this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
         )}
         <div className="section-header">INTERNSHIPS</div>
         {workExperienceData.filter(we => we.type === "internship").map((we, idx) => 
-          <WorkExperience key={idx} organization={we.organization}
-                          title={we.title}
-                          startDate={we.startDate}
-                          endDate={we.endDate}
-                          location={we.location}
-                          descriptions={this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences}
-                          viewDetails={this.state.viewDetails} />
+          this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
+                                      we.endDate, we.location,
+                                      this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
         )}
       </div>
     );
@@ -73,6 +61,18 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
 
   handleSimplifiedDetailsChange = () => {
     this.setState({simplifiedDetailsView: !this.state.simplifiedDetailsView});
+  }
+  
+  populateWorkExperience = (idx: number, org: string, title: string, 
+                            startDt: string, endDt: string, loc: string,
+                            descriptions: string[]) => {
+    return <WorkExperience key={idx} organization={org}
+            title={title}
+            startDate={startDt}
+            endDate={endDt}
+            location={loc}
+            descriptions={descriptions}
+            viewDetails={this.state.viewDetails} />
   }
 }
 

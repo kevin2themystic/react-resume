@@ -1,8 +1,4 @@
-// Main Imports
 import React from 'react';
-// Material UI
-//import Avatar from "@material-ui/core/Avatar";
-// Custom Imports
 
 export interface WorkExperienceProps {
   organization: string;
@@ -23,6 +19,7 @@ class WorkExperience extends React.Component<WorkExperienceProps, {}> {
         <div className="we-more-info">
           {this.props.startDate} to {this.props.endDate} in {this.props.location}
         </div>
+        {this.props && !this.props.endDate && <div className="we-currently-position">currently working here</div> }
         {this.props && this.props.viewDetails &&
           <ul>
             {this.props.descriptions.map((weexperience, idx) => 
@@ -31,7 +28,7 @@ class WorkExperience extends React.Component<WorkExperienceProps, {}> {
           </ul>        
         }
       </div>
-  );
+    );
   } 
 }
 
