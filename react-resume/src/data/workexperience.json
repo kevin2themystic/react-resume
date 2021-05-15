@@ -5,6 +5,7 @@
         "startDate": "May 31 2020",
         "endDate": "",
         "location": "Calgary, AB Canada",
+        "locationType": "remotely",
         "type": "professional",
         "experiences": [
             "coming soon."
@@ -19,6 +20,7 @@
         "startDate": "Feb. 2020",
         "endDate": "May 2020",
         "location": "Edmonton, AB Canada",
+        "locationType": "remotely",
         "type": "professional",
         "experiences": [
             "Helped finish development and testing on the MEx (Member Experience) project.",
@@ -37,6 +39,7 @@
         "startDate": "June 2020",
         "endDate": "November 2020",
         "location": "Edmonton & St. Albert, AB Canada",
+        "locationType": "remotely",
         "type": "professional",
         "experiences": [
             "Sole web developer on a project to apply new remittance model changes to AGLC’s Liquor Sales Application (LSA) as a part of their Alberta Manufacturers Improvements (AMI) project.",
@@ -62,6 +65,7 @@
         "startDate": "March 2020",
         "endDate": "May 2020",
         "location": "Edmonton, AB Canada",
+        "locationType": "remotely",
         "type": "professional",
         "experiences": [
             "Helped maintain a list of 7 web and Windows based applications",
@@ -81,6 +85,7 @@
         "startDate": "Apr 2019",
         "endDate": "Jan 2020",
         "location": "Edmonton, AB Canada",
+        "locationType": "remotely",
         "type": "professional",
         "experiences": [
             "Developed and delivered features and functionality for this Canada wide startup real estate platform on a very small team of 2 developers, 1 designer, 1 data analyst and 2 realtors.",
@@ -99,6 +104,7 @@
         "startDate": "May 2017",
         "endDate": "Apr. 2019",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Architected and built an enterprise Web Services framework in .NET Core and C# for servicing Rosenau internet and intranet applications.",
@@ -132,6 +138,7 @@
         "startDate": "Oct. 2015",
         "endDate": "Apr. 2017",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Maintained a list of 38 internal web applications in a team of 11 people with an Agile software development methodology.",
@@ -161,6 +168,7 @@
         "startDate": "Oct. 2012",
         "endDate": "Apr. 2015",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Participated in design discussions for ASP.NET application and WCF Web Services API  architecture and provided feedback and impact analysis.",
@@ -205,6 +213,7 @@
         "startDate": "Jan. 2012",
         "endDate": "Aug. 2012",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Maintained and improved Windows Communication Foundation (WCF) web services interfaces between ASP.NET Model-View-Controller (MVC) application and TCP/IP interface to Alberta Justice JOIN and system as well as retrieving data from the PRISM system from business requirements.",
@@ -234,6 +243,7 @@
         "startDate": "Nov. 2010",
         "endDate": "Dec. 2011",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Co-designed and developed a Windows Presentation Foundation (WPF) desktop application implementing Prism: Microsoft's implementation of the Model-View-ViewModel (MVVM) design pattern utilizing  Telerik controls for WPF, Telerik OpenAccess ORM for Oracle  and Microsoft SQL Server as data storage.",
@@ -265,6 +275,7 @@
         "startDate": "Feb. 2008",
         "endDate": "Aug. 2010",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Co-designed, Developed, maintained and improved interoperability components with Alberta Health’s Pharmaceutical Information Network (PIN) in EMIS’ Patient Care System (PCS) from business requirements documents.",
@@ -300,6 +311,7 @@
         "startDate": "2009",
         "endDate": "2010",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Gathered requirements from the business owner on how the site should look and feel.",
@@ -321,6 +333,7 @@
         "startDate": "Sept. 2009",
         "endDate": "Oct. 2009",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Created a 6 page static HTML website.",
@@ -341,6 +354,7 @@
         "startDate": "Jan. 2007",
         "endDate": "Feb. 2008",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Co-Developed and maintained several ASP.NET Web Services applications from business requirements documents.",
@@ -369,6 +383,7 @@
         "startDate": "Apr. 2006",
         "endDate": "Sept. 2006",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "professional",
         "experiences": [
             "Maintained and added new features to a J2EE sporting registration website using Java Server Pages and Struts.",
@@ -389,6 +404,7 @@
         "startDate": "May 2006",
         "endDate": "Dec. 2006",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "internship",
         "experiences": [
             "Developed deployments of CodeBaby virtual agent content including Flash, XML, JavaScript, CSS and other media.",
@@ -411,6 +427,7 @@
         "startDate": "Sept. 2005",
         "endDate": "Dec. 2005",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "internship",
         "experiences": [
             "Independently completed a four month proof of concept project showing the value and feasibility in extending the capabilities of the existing metadata repository.",
@@ -435,6 +452,7 @@
         "startDate": "Sept. 2006",
         "endDate": "Dec. 2006",
         "location": "Edmonton, AB Canada",
+        "locationType": "in office",
         "type": "school",
         "experiences": [
             "Guided group members through four project phases: inception, elaboration, construction and deployment.",

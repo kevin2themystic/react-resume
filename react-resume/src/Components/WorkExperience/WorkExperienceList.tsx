@@ -40,17 +40,19 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
             />
           </div>
         </div>
-        {workExperienceData.filter(we => we.type === "professional").map((we, idx) => 
-          this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
-                                      we.endDate, we.location,
-                                      this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
-        )}
-        <div className="section-header">INTERNSHIPS</div>
-        {workExperienceData.filter(we => we.type === "internship").map((we, idx) => 
-          this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
-                                      we.endDate, we.location,
-                                      this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
-        )}
+        <div className="we-scroll">
+          {workExperienceData.filter(we => we.type === "professional").map((we, idx) => 
+            this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
+                                        we.endDate, we.location, we.locationType,
+                                        this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
+          )}
+          <div className="section-header">INTERNSHIPS</div>
+          {workExperienceData.filter(we => we.type === "internship").map((we, idx) => 
+            this.populateWorkExperience(idx, we.organization, we.title, we.startDate,
+                                        we.endDate, we.location, we.locationType,
+                                        this.state.simplifiedDetailsView ? we.experiencesSimplified : we.experiences)
+          )}
+        </div>
       </div>
     );
   } 
@@ -64,13 +66,14 @@ class WorkExperienceList extends React.Component<{}, WorkExperienceState> {
   }
   
   populateWorkExperience = (idx: number, org: string, title: string, 
-                            startDt: string, endDt: string, loc: string,
+                            startDt: string, endDt: string, loc: string, locType: string,
                             descriptions: string[]) => {
     return <WorkExperience key={idx} organization={org}
             title={title}
             startDate={startDt}
             endDate={endDt}
             location={loc}
+            locationType={locType}
             descriptions={descriptions}
             viewDetails={this.state.viewDetails} />
   }

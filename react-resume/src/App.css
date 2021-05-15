@@ -31,7 +31,7 @@ body {
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .main-content {
@@ -55,6 +55,17 @@ body {
 .years-experience {
   background-color: #328cc1;
   /* opacity: 55%; */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cta {
+  background-color: #328cc1;
+  opacity: 85%;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -102,7 +113,11 @@ a:hover {
 
 .about-me-section {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.objective {
+  line-height: 2;
 }
 
 .about-me-sector {
@@ -120,9 +135,22 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.about-this-site-scroll {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 462px;
+}
+
 .education {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.education-scroll {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 462px;
 }
 .ed-organization {
   color: #083c5d;
@@ -144,6 +172,13 @@ a:hover {
   color: #328cc1;
   font-size: 14px;
   padding-bottom: 5px;
+}
+
+.training-scroll {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 462px;
 }
 
 .work-experience {
@@ -170,6 +205,12 @@ a:hover {
 .we-currently-position {
   color: #1d2731;
   font-size: 10px;
+}
+.we-scroll {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 350px;
 }
 
 .gold-switch {

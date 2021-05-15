@@ -1,26 +1,21 @@
 {
-    "aboutMe1": "Are you looking for a Full Stack Developer in the  Microsoft .NET and React + TypeScript vein?",
-    "aboutMe2": "Experience in Organizations, Sectors and Industries",
-    "aboutMe3": "The C# programming language.",
-    "aboutMe4": "Developing a wide range of applications: Windows Forms, Windows Presentation Foundation (WPF), ASP.NET Web Forms, ASP.NET MVC, ASP.NET Web Services, Windows Communication Foundation (WCF), WebAPI, .NET Core.",
-    "aboutMe5": "Designing and developing relational databases (Main: SQL Server, Others: Oracle, MySQL, PostgreSQL and IBM DB2.",
+    "lookingForFullStackDev": "Are you looking for a Full Stack Developer in the  Microsoft .NET and/or MERN (MongoDB, Express, React and Node) stack?",
+    "contactMeBtn": "Contact Me",
+    "interestedInPortfolio": "Interested in seeing my portfolio?",
+    "checkoutPortfolioBtn": "Check it Out",
     "organizationTypes": [
-        "Alberta Health and Wellness, Alberta Justice, Alberta Education, Alberta Agriculture",
-        "City of Edmonton, Alberta Gaming Liquor and Cannabis Commission (AGLC), Alberta School Employee Benefit Plan (ASEBP)",
-        "Consulting, Dairy, Health and Wellness, Transportation, Real Estate Industries and More"
+        "Experience at Alberta Health and Wellness, Alberta Justice, Alberta Education, Alberta Agriculture",
+        "Experience at City of Edmonton, Alberta Gaming Liquor and Cannabis Commission (AGLC), Alberta School Employee Benefit Plan (ASEBP)",
+        "Experience in Consulting, Dairy, Health and Wellness, Transportation, Real Estate Industries and More"
     ],
     "coreValues": [
         "Honesty & Integrity",
-        "lorem ipsum",
+        "Bringing the best to each project and not cutting corners ",
         "Kindness & Communication",
-        "lorem ipsum",
+        "Transparency and appropriateness in communication and kind and humane in delivery. Valuing and respecting team members.",
         "Team Work & Collaboration",
         "Well designed, well maintained and bulletproof code",
         "Customer-focused",
         "Translating your business requirements into user-friendly applications"
-    ],
-    "topSkills": "C#, React + Typescript, ASP.NET, WebAPI, .NET Core and SQL Server",
-    "moreSkills": [
-        ""
     ]
 }

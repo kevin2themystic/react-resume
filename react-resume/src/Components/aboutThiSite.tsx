@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutThiSite () {
   return (
-    <div className="component">
+    <div className="component about-this-site-scroll">
       <div className="section-header">ABOUT THIS SITE</div>
       <div className="section-section">This site was built with:</div>
       <div className="section-section">

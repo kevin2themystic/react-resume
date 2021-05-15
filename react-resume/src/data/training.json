@@ -1,70 +1,70 @@
 [
     {
         "name": "Mastering React w/Mosh Hamedani",
-        "description": "Teachable",
+        "platform": "Teachable",
         "startDate": "May 2020",
         "endDate": "May 2021",
-        "webLink": "https://codewithmosh.com/courses/enrolled/357787"
+        "webLink": "https://codewithmosh.com/p/mastering-react"
     },
     {
         "name": "The Complete Node.js Course w/Mosh Hamedani",
-        "description": "Teachable",
+        "platform": "Teachable",
         "startDate": "May 2021",
         "endDate": "June 2021",
-        "webLink": "https://codewithmosh.com/courses/enrolled/293204"
+        "webLink": "https://codewithmosh.com/p/the-complete-node-js-course"
     },
     {
         "name": "React Native w/Mosh Hamedani",
-        "description": "Teachable",
+        "platform": "Teachable",
         "startDate": "June 2020",
         "endDate": "June 2021",
-        "webLink": "https://codewithmosh.com/courses/enrolled/887220"
+        "webLink": "https://codewithmosh.com/p/the-ultimate-react-native-course"
     },
     {
         "name": "React Native: Getting Started",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Nov. 2018",
         "endDate": "Nov. 2018",
         "webLink": "https://app.pluralsight.com/library/courses/react-native-getting-started"
     },
     {
         "name": "ASP.NET Core Authentication Playbook",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Nov. 2018",
         "endDate": "Nov. 2018",
         "webLink": "https://app.pluralsight.com/library/courses/aspnet-core-identity-management-playbook"
     },
     {
         "name": "React: The Big Picture",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Jan. 2018",
         "endDate": "Jan. 2018",
         "webLink": ""
     },
     {
         "name": "React: Getting Started",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Jan. 2018",
         "endDate": "Jan. 2018",
         "webLink": "https://app.pluralsight.com/library/courses/react-js-getting-started"
     },
     {
         "name": "Building Your First API with ASP.NET Core Course",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Oct 2017",
         "endDate": "Oct 2017",
         "webLink": "https://app.pluralsight.com/library/courses/asp-dotnet-core-api-building-first"
     },
     {
         "name": "Understanding OWIN and Katana Course",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Oct 2017",
         "endDate": "Oct 2017",
         "webLink": "https://app.pluralsight.com/library/courses/owin-katana-understanding"
     },
     {
         "name": "A Comparison of Microsoft Web Technologies Course",
-        "description": "Pluralsight",
+        "platform": "Pluralsight",
         "startDate": "Oct 2017",
         "endDate": "Oct 2017",
         "webLink": "https://app.pluralsight.com/library/courses/microsoft-web-technology-comparison"

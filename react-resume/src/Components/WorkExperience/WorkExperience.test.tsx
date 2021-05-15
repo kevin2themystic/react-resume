@@ -9,6 +9,7 @@ test('renders learn react link', () => {
       startDate={"test startDate"}
       endDate={"test endDate"}
       location={"test location"}
+      locationType={"remotely"}
       descriptions={[]}
       viewDetails={true} />
   );
